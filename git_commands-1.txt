@@ -1,0 +1,26 @@
+$ git init
+$ git status
+$ git add .
+$ git status
+$ git commit -m "my first commit 23-04-2024"
+$ git status
+$ git remote add origin https://github.com/sumit-davda/WiproCsBatch.git
+$ git status
+$ git push origin master
+$ git pull origin master
+$ git branch develop
+
+$ git status
+$ git checkout develop
+$ git add .
+$ git status
+$ git commit -m "new developer has added code!"
+$ git push origin develop
+$ git status
+$ git checkout master
+$ git merge develop
+$ git status
+$ git add .
+$ git status
+$ git commit -m "all changes done now"
+$ git push origin master
